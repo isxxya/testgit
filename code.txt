@@ -1,0 +1,24 @@
+git init                    初始化项目
+git --version               查看git版本
+git config --global user.name "用户名"
+git config --global user.email "邮箱"
+
+git add .                   添加到暂存盘
+git checkout 文件名          从暂存盘还原文件
+
+git commit -m "提示文本"     提交到版本库
+
+git log                     查看历史版本
+
+git reset --hard 哈希值      当前版本重新指向哪个版本（版本切换）
+
+git reflog                  查看所有版本
+
+git reset --hard HEAD^      回退到上一个版本，一个 ^ 代表一个版本，最高100个
+
+git checkout -b dev         创建并切换到dev分支
+git checkout master         切换到master分支
+git branch ak               创建一个ak的分支
+git branch                  查看分支
+git merge dev               把dev分支合并到当前分支
+git branch -d <name>        删除分支
