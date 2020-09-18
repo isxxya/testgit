@@ -22,3 +22,23 @@ git branch ak               创建一个ak的分支
 git branch                  查看分支
 git merge dev               把dev分支合并到当前分支
 git branch -d <name>        删除分支
+
+github  项目的主页
+git checkout -b gh-pages
+添加 index.html anout.html........
+git add .
+git commit -m "website"
+git push -u origin gh-pages
+
+远程相关命令
+git remote add origin xxx.git	创建并切换分支
+git push -u origin master	推送主分支（如果远程没有分支就创建）
+git push -f origin master	强制推送
+
+git pull origin master		拉取远程master分支
+git clone xxx.git 		克隆远程分支
+
+网上
+settings
+->GitHub pages
+http://ak.github.io/testgit
